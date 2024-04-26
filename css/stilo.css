@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+li {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgb(255, 255, 255); /* Añade un borde de 32px */
+    text-align: center; /* Centra el texto horizontalmente */
+    line-height: 86px; /* Centra el texto verticalmente */
+    display: inline-block;
+    border-radius: 10px; /* Agrega un radio de borde de 10px */
+    background: rgb(70, 70, 255);
+}
+
+li:nth-child(2n) {
+    background: rgb(70, 255, 70);
+}

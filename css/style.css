@@ -1,0 +1,42 @@
+body{
+    background: #00f;
+}
+
+div{
+    width: 600px;
+}
+
+#rosa{
+    position: relative;
+    background: #20b2aa;
+    color: bisque;
+    top: 200px;
+    left: 190px;
+    width: 400px;
+    z-index: 1;
+}
+
+div:nth-child(2){
+    background: red;
+    width: 600px;
+}
+
+li:nth-child(2){
+    background: #b22020;
+}
+
+:nth-child(3){
+    background: #ff0;
+}
+
+:nth-child(4){
+    background: #00ff6a;
+}
+
+:nth-child(5){
+    background: #c300ff;
+}
+/*
+li:nth-child(odd) {
+    background: green; 
+  }*/
